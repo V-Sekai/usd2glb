@@ -4,7 +4,7 @@ Converting usdc to glb using tinyusdz &amp; tinygltf
 
 ## Status
 
-- [*] handling faces and vertices.
+- [x] handling faces and vertices.
 - [ ] uvsets
 
 ## License
