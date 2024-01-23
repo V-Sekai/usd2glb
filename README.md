@@ -1,7 +1,13 @@
 # usd2glb
+
 Converting usdc to glb using tinyusdz &amp; tinygltf
 
-# License
+## Status
+
+- [*] handling faces and vertices.
+- [ ] uvsets
+
+## License
 
 Copyright 2022-2023 Fei Yang (https://github.com/fynv)
 

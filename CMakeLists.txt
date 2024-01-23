@@ -13,6 +13,7 @@ Image.h
 set (INCLUDE_DIR
 tinyusdz/src
 tinyusdz/src/external
+tinyusdz/src/external/jsonhpp/nlohmann
 glm/glm
 crc64
 .
@@ -22,6 +23,7 @@ crc64
 set(CMAKE_CXX_STANDARD 17)
 if (WIN32) 
 set (DEFINES  ${DEFINES}
+-D"GLM_ENABLE_EXPERIMENTAL"
 -D"_CRT_SECURE_NO_DEPRECATE"  
 -D"_SCL_SECURE_NO_DEPRECATE" 
 -D"_CRT_SECURE_NO_WARNINGS"
