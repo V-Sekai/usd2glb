@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/syoyo/tinyusdz.git
+	branch = dev
+	commit = 7b013a5649cc0e085c96b9b78a8acf552add3b67
+	parent = 3f8117a9f731930d31209f3859f2baefd0dd2f34
+	method = merge
+	cmdver = 0.4.6
