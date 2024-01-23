@@ -1,0 +1,30 @@
+name: CMake Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Ninja build system
+        uses: seanmiddleditch/gha-setup-ninja@v1
+
+      - name: Create Build Directory
+        run: mkdir build
+
+      - name: Generate CMake project files
+        run: cmake -S . -B build -G Ninja
+
+      - name: Build
+        run: cmake --build build
+
+      - name: Test (optional)
+        run: cmake --build build --target test
