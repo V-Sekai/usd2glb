@@ -5,8 +5,8 @@
 ;
 [subrepo]
 	remote = https://github.com/syoyo/tinyusdz.git
-	branch = dev
-	commit = 7b013a5649cc0e085c96b9b78a8acf552add3b67
-	parent = 3f8117a9f731930d31209f3859f2baefd0dd2f34
+	branch = v0.8.0rc7
+	commit = b14f625a776042a384743316236ee55685f144bf
+	parent = a38fcc009344cc3d9997407b57f13f141af29e84
 	method = merge
 	cmdver = 0.4.6
