@@ -14,14 +14,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
 
-      - name: Setup ninja
-        uses: seanmiddleditch/gha-setup-ninja@master
-
       - name: Create Build Directory
         run: mkdir build
 
       - name: Generate CMake project files
-        run: cmake -S . -B build -G Ninja
+        run: cmake -S . -B build
 
       - name: Build
         run: cmake --build build
